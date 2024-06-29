@@ -1342,8 +1342,8 @@ function Library:new()
     return Tab
 end
 
---[[
 local main = Library.new()
+--[[
 local tab = main.create_tab('Main')
 
 tab.create_title({name = 'Generals Lists',section = 'left'})
